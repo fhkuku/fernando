@@ -134,6 +134,7 @@
             this.btnConfiguracion.TabIndex = 26;
             this.btnConfiguracion.Text = "Configuraciones";
             this.btnConfiguracion.UseVisualStyleBackColor = false;
+            this.btnConfiguracion.Click += new System.EventHandler(this.btnConfiguracion_Click);
             // 
             // btnEmpresa
             // 
