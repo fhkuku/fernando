@@ -58,17 +58,5 @@ namespace proyecto.GUI
             frm.Show();
             this.Close();
         }
-
-        private void btnConfiguracion_Click(object sender, EventArgs e)
-        {
-            pnlContainer.Controls.Clear();
-            frm_configuracion frm = new frm_configuracion();
-            frm.TopLevel = false;
-            pnlContainer.Controls.Add(frm);
-            frm.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            frm.Dock = DockStyle.Fill;
-            frm.Show();
-
-        }
     }
 }

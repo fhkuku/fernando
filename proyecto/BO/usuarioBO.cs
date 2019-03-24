@@ -18,7 +18,6 @@ namespace proyecto.BO
         public string idtipo { get; set; }
         public string email { get; set; }
         public string pass { get; set; }
-        public string tipo { get; set; }
 
 
 

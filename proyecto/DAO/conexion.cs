@@ -52,8 +52,6 @@ namespace proyecto.DAO
             DataTable Tabla_Virtual = new DataTable();
             Tabla_BD.Fill(Tabla_Virtual);
             return Tabla_Virtual;
-
-            
         }
 
         
