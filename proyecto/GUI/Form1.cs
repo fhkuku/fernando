@@ -51,8 +51,9 @@ namespace proyecto
                         string email = count.Rows[0]["email"].ToString();
                         frm_menu frm = new frm_menu(id, nombre, apellidos, turno, idtipo, email);
                         frm.Show();
+                        string valor = "\"";
+                        MessageBox.Show(valor);
                         this.Hide();
-
                     }
                     else
                     {

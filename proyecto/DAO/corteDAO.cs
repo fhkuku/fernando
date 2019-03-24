@@ -10,7 +10,7 @@ namespace proyecto.DAO
 {
     class corteDAO : conexion
     {
-        String query; DataTable datos; DataRow dr;
+        string query; DataTable datos; 
         public DataTable Buscarcorte()
         {
             query = string.Format("SELECT * FROM corte");
