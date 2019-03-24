@@ -97,6 +97,12 @@
     <Compile Include="DAO\gastoDAO.cs" />
     <Compile Include="DAO\loginDAO.cs" />
     <Compile Include="DAO\registroDAO.cs" />
+    <Compile Include="GUI\EstacionamientoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EstacionamientoFrm.Designer.cs">
+      <DependentUpon>EstacionamientoFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="alertas\msg_info.resx">
       <DependentUpon>msg_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EstacionamientoFrm.resx">
+      <DependentUpon>EstacionamientoFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
