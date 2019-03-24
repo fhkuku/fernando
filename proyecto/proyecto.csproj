@@ -80,11 +80,23 @@
     <Compile Include="alertas\msg_info.Designer.cs">
       <DependentUpon>msg_info.cs</DependentUpon>
     </Compile>
+    <Compile Include="BO\cobroBO.cs" />
+    <Compile Include="BO\contratoBO.cs" />
+    <Compile Include="BO\corteBO.cs" />
     <Compile Include="BO\EmpresaBO.cs" />
+    <Compile Include="BO\estacionamientoBO.cs" />
+    <Compile Include="BO\gastoBO.cs" />
+    <Compile Include="BO\registroBO.cs" />
     <Compile Include="BO\usuarioBO.cs" />
+    <Compile Include="DAO\cobroDAO.cs" />
     <Compile Include="DAO\conexion.cs" />
-    <Compile Include="DAO\empresaDAO.cs" />
+    <Compile Include="DAO\contratroDAO.cs" />
+    <Compile Include="DAO\corteDAO.cs" />
+    <Compile Include="DAO\EmpresaDAO.cs" />
+    <Compile Include="DAO\estacionamientoDAO.cs" />
+    <Compile Include="DAO\gastoDAO.cs" />
     <Compile Include="DAO\loginDAO.cs" />
+    <Compile Include="DAO\registroDAO.cs" />
     <Compile Include="GUI\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
